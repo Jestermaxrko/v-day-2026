@@ -6,10 +6,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>V-day gifts</title>
   <script src="index.js" defer></script>
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-  Collect your gifts here!
+  <div class="container">
+    <div class="content">
+      <div id="welcome-screen">
+        <h1>Вітаю шукачко ключів від подаруночної</h1>
+        <p>На жаль, злий чарівник накликав буревій який розкидав ключі по всій норці. А також зачарував жителів норки, щоб вони заховали ключі які залишились на видноті</p>
+        <p>Тобі потрібно знайти всі ключі, щоб відкрити подаруночну і отримати свій подарунок</p>
+        <p>Але, на щастя, один добродій, що був свідком цього залишив тобі малюнки ключів та підказки, які допоможуть тобі знайти ключі, тож раджу скористатись на гаячи часу</p>
+        <button id="start-button">Переглянути</button>
+      </div>
+
+      <div id="game-container">
+        <div id="gift-title"></div>
+        <div id="gift-container"></div>
+        <button id="hint-button">
+          Показати підказку
+        </button>
+        <div id="hint-container">
+        </div>
+
+        <div id="hint-penalty"></div>
+
+
+        <div class="nav-buttons">
+          <button class="nav-button" id="prev-button">
+            Попередній ключ
+          </button>
+
+          <button class="nav-button" id="next-button">
+            Наступний ключ
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
