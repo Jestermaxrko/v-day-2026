@@ -56,11 +56,13 @@ body {
 
 #hint-container {
   margin-top: 20px;
+  text-align: center;
 }
 
 #hint-penalty {
   color: rgb(255, 0, 0);
   margin-top: 10px;
+  text-align: center;
 }
 
 .nav-buttons {
