@@ -40,6 +40,12 @@ body {
   align-items: center;
 }
 
+ .main-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+ }
+
 #hint-button {
   margin-top: 20px;
   padding: 10px 20px;
